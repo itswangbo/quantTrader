@@ -2,9 +2,13 @@ import pandas as pd
 import random 
 random.seed(20230206)
 
-SUBMISSION_PATH = '/kaggle/working/submission.csv'
-TEST_MARKET_PATH = '/kaggle/input/hku-qids-2023-quantitative-investment-competition/qids_package/first_round_test_market_data.csv'
-TEST_FUNADMENTAL_PATH = '/kaggle/input/hku-qids-2023-quantitative-investment-competition/qids_package/first_round_test_fundamental_data.csv'
+#SUBMISSION_PATH = '/kaggle/working/submission.csv'
+#TEST_MARKET_PATH = '/kaggle/input/hku-qids-2023-quantitative-investment-competition/qids_package/first_round_test_market_data.csv'
+#TEST_FUNADMENTAL_PATH = '/kaggle/input/hku-qids-2023-quantitative-investment-competition/qids_package/first_round_test_fundamental_data.csv'
+SUBMISSION_PATH = './submission.csv'
+TEST_MARKET_PATH = './qids_package/first_round_test_market_data.csv'
+TEST_FUNADMENTAL_PATH = './qids_package/first_round_test_fundamental_data.csv'
+
 POINT_PER_DAY = 50
 
 class QIDS:
